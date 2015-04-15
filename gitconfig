@@ -1,6 +1,6 @@
 [user]
-	name = Koen Punt
-	email = koen@koenpunt.nl
+	name = Fetch!
+	email = admin@fetch.nl
 [color]
 	diff = auto
 	status = auto
@@ -8,11 +8,11 @@
 [core]
 	excludesfile = ~/.gitignore_global
 	autocrlf = false
-	editor = /usr/local/bin/vim
+	editor = /usr/bin/vim
 [alias]
 	ci = commit
-    b = branch
-    s = status
+	b = branch
+	s = status
 	f = fetch
 	co = checkout
 	ci = commit
@@ -30,5 +30,3 @@
 	rebase = true
 [help]
 	autocorrect = 15
-[ghi]
-	token = !security find-internet-password -a koenpunt -s github.com -l 'ghi token' -w
