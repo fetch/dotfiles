@@ -3,17 +3,11 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 dotfiles=(
-  ackrc
   gemrc
   gitconfig
   gitignore_global
-  irbrc
-  selected_editor
-  tm_properties
   vim
   vimrc
-  zshrc
-  railsrc
 )
 
 if [ "$DIR" != "$HOME/.dotfiles" ]
